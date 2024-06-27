@@ -7,7 +7,7 @@ body {
 
 .menu {
     width: 200px;
-    background-color:lightgray;
+    background-color:rgba(15, 11, 53, 0);
 }
 
 .menu ul {
@@ -22,7 +22,7 @@ body {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .menu ul li a:hover {
@@ -34,12 +34,11 @@ body {
 }
 
 .dark-theme {
-    background-color: #333;
-    color: #f1f1f1;
+    background-color:#333;
+    color:#f1f1f1;
 }
 </style>
-<div class="toggle-container">
-    <button onclick="toggleTheme()">Theme Dark/Light Mode</button>
+
 </div>
     <div class="menu">
         <ul>
@@ -55,8 +54,10 @@ body {
             <li><h5 href="#">Clients</h5></li>
             <li><h5 href="#">Location</h5></li>
             <li><h5 href="#">Position</h5></li>
-            <li><button  styles=""font-size:10px;background-color:white;>👩🏻‍💻 Rachel</button></li>
+            <li><button  styles=""font-size:10px;background-color:white;>👩🏻‍💻 Rachel</button></li>  
         </ul>
+        <div class="toggle-container">
+            <button onclick="toggleTheme()">Theme Dark/Light Mode</button>
     </div>
+        
     <script src="inter.js"></script>
-
